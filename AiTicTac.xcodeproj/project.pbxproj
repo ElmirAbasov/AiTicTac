@@ -15,6 +15,7 @@
 		879D4F9725A74527009EF3B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879D4F9525A74527009EF3B6 /* LaunchScreen.storyboard */; };
 		879D4FA225A74527009EF3B6 /* AiTicTacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D4FA125A74527009EF3B6 /* AiTicTacTests.swift */; };
 		879D4FAD25A74527009EF3B6 /* AiTicTacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D4FAC25A74527009EF3B6 /* AiTicTacUITests.swift */; };
+		879D4FBE25A88664009EF3B6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D4FBD25A88664009EF3B6 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		879D4FA825A74527009EF3B6 /* AiTicTacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiTicTacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		879D4FAC25A74527009EF3B6 /* AiTicTacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiTicTacUITests.swift; sourceTree = "<group>"; };
 		879D4FAE25A74527009EF3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879D4FBD25A88664009EF3B6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				879D4F9325A74527009EF3B6 /* Assets.xcassets */,
 				879D4F9525A74527009EF3B6 /* LaunchScreen.storyboard */,
 				879D4F9825A74527009EF3B6 /* Info.plist */,
+				879D4FBD25A88664009EF3B6 /* GameViewController.swift */,
 			);
 			path = AiTicTac;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879D4FBE25A88664009EF3B6 /* GameViewController.swift in Sources */,
 				879D4F8F25A74524009EF3B6 /* ViewController.swift in Sources */,
 				879D4F8B25A74524009EF3B6 /* AppDelegate.swift in Sources */,
 				879D4F8D25A74524009EF3B6 /* SceneDelegate.swift in Sources */,
